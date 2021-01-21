@@ -46,6 +46,35 @@ int main() {
  
         printf("\n");
     }
-
     return 0;
 }
+
+/*
+
+200
+400 600
+300
+600 900 1200
+400 
+800 1200 1600 2000
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello World");
+    int count = 2;
+    int multiply = 2;
+    for (int i=200; i<=400; i=i+100) {
+	    printf("\n%d\n", i);
+	    for (int j = count; j>0;j--) {
+		    printf("%d ", i*multiply);
+		    multiply++;
+	    }
+	    multiply = 2;
+	    count = count + 1;
+    }
+    return 0;
+}
+
+*/
